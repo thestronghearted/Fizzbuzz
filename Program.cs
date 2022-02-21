@@ -15,7 +15,7 @@ for (int i = 1; i < 101; i++)
     }
     else if (i % 5 == 0) // a multiple of 5
     {
-        Fizzbuzz = Fizzbuzz + "Buzz";
+        Fizzbuzz = Fizzbuzz + "Buzz " + i.ToString();
     }
     else //just show number
     {
